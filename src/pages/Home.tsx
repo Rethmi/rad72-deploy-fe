@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 import { useAuth } from "../context/authContext";
 
 // ✅ Post interface (matching your backend model)

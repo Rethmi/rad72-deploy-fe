@@ -9,7 +9,7 @@ const Login: React.FC = () => {
   const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
 
-  const {user, setUser} = useAuth()
+  const { setUser} = useAuth()
   const navigate = useNavigate()
 
 //  const handleLogin = async (e: React.FormEvent) => {
