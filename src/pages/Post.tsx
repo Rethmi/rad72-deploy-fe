@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { getAllPost } from '../services/post'
-import { div, img } from 'framer-motion/client'
 
 export default function Post() {
 
@@ -21,6 +20,7 @@ export default function Post() {
         }
     }
 
+    // initially run and when change post then run again
     useEffect(() => {
         fetchPost()
     }, [page])

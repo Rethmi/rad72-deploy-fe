@@ -1,3 +1,9 @@
 import React from "react";
 
-export default function MyPost
+const MyPost = () => {
+  return (
+    <div>MyPost</div>
+  )
+}
+
+export default MyPost
