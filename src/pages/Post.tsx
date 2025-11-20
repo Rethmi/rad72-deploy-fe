@@ -6,6 +6,7 @@ export default function Post() {
     const [page , setPage] = useState(1)
     const [posts , setPosts] = useState([])
     const [totalPages , setTotalPages] = useState(1)
+    
 
     const fetchPost = async () => {
 
